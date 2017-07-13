@@ -4,7 +4,6 @@ public class Asset {
     public Asset(String name) {
         this.name = name;
     }
-
     private String name;
     private double price;
 
