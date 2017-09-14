@@ -17,6 +17,7 @@ public class ClientGuiController extends Client{
         @Override
         protected void informAboutAddingNewUser(String userName) {
             model.addUser(userName);
+            view.setName(userName);
             view.refreshUsers();
         }
 
@@ -64,5 +65,9 @@ public class ClientGuiController extends Client{
 
     public ClientGuiModel getModel() {
         return model;
+    }
+
+    public String getMyName(){
+        return model.getLastChatName();
     }
 }

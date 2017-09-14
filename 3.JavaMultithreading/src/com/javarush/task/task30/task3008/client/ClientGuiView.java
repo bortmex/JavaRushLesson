@@ -6,9 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ClientGuiView {
-    private final ClientGuiController controller;
+    private ClientGuiController controller;
+    private String name;
 
-    private JFrame frame = new JFrame("Чат");
+    private JFrame frame = new JFrame("Чат ");
     private JTextField textField = new JTextField(50);
     private JTextArea messages = new JTextArea(10, 50);
     private JTextArea users = new JTextArea(10, 10);
@@ -36,6 +37,11 @@ public class ClientGuiView {
                 textField.setText("");
             }
         });
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getServerAddress() {
@@ -102,5 +108,10 @@ public class ClientGuiView {
             sb.append(userName).append("\n");
         }
         users.setText(sb.toString());
+    }
+
+    public String getUserNameChat() {
+        if(controller.getModel().getLastChatName().equals("")) return "";
+        return controller.getModel().getLastChatName();
     }
 }
