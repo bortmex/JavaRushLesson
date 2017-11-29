@@ -1,6 +1,6 @@
 package com.javarush.task.task34.task3408;
 
-/*
+/* 
 Кэширование
 */
 public class Solution {
@@ -23,7 +23,6 @@ public class Solution {
         System.out.println(valueFromCacheNew);
 
         System.out.println(cache.size());
-
         /* expected output:
         SomeValue{myKey=SomeKey{name='test'}}
         SomeValue{myKey=SomeKey{name='testNew'}}
