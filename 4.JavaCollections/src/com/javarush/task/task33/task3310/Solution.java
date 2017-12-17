@@ -1,6 +1,6 @@
 package com.javarush.task.task33.task3310;
 
-import com.javarush.task.task33.task3310.strategy.HashMapStorageStrategy;
+import com.javarush.task.task33.task3310.strategy.FileStorageStrategy;
 import com.javarush.task.task33.task3310.strategy.StorageStrategy;
 
 import java.util.Date;
@@ -11,8 +11,8 @@ public class Solution {
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
 
-        StorageStrategy strategy1 = new HashMapStorageStrategy();
-        testStrategy(strategy1, 10000);
+        StorageStrategy strategy1 = new FileStorageStrategy();
+        testStrategy(strategy1, 10);
 
     }
 

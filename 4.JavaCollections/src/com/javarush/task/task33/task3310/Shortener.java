@@ -13,16 +13,26 @@ public class Shortener {
 
     public synchronized Long getId(String string){
 
-        if(storageStrategy.containsValue(string))return storageStrategy.getKey(string);
-        else {
-            lastId++;
-            storageStrategy.put(lastId,string);
-            return lastId;
+        try {
+            if(storageStrategy.containsValue(string))return storageStrategy.getKey(string);
+            else {
+                lastId++;
+                storageStrategy.put(lastId,string);
+                return lastId;
+            }
+        } catch (Exception  e) {
+            e.printStackTrace();
         }
+        return 0L;
     }
 
     public synchronized String getString(Long id){
-        return storageStrategy.getValue(id);
+        try {
+            return storageStrategy.getValue(id);
+        } catch (Exception  e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 }

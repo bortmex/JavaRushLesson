@@ -8,22 +8,16 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        inOrder();
+        inOrder(3);
     }
 
-    public static void inOrder() throws IOException {
+    public static void inOrder(int numberOfDigits) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int[] array = new int[3];
         int countplus = 0;
-        int countminus = 0;
-
-        for (int i = 0; i < 3; i++) {
-            array[i]=Integer.parseInt(reader.readLine());
-            if(array[i]>0) countplus++;
-            if(array[i]<0) countminus++;;
+        for (int i = 0; i < numberOfDigits; i++) {
+            if(Integer.parseInt(reader.readLine())>0) countplus++;
         }
-
-        System.out.println("количество отрицательных чисел: "+countminus+"\n" +
+        System.out.println("количество отрицательных чисел: "+(numberOfDigits - countplus)+"\n" +
                 "количество положительных чисел: " + countplus);
     }
 }
