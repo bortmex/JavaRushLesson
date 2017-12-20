@@ -17,7 +17,7 @@ taskKey="com.javarush.task.task28.task2801"
 
 
 Требования:
-1.	Класс Solution должен содержать метод switchTest и enums E1, E2, E3.
+1.	Класс ntrlab.Solution должен содержать метод switchTest и enums E1, E2, E3.
 2.	Реализуйте метод switchTest, используя 1 switch, у которого 2 case и 1 default.
 3.	Вывод в консоль должен соответствовать условию задачи.
 4.	Использовать условные операторы нельзя.

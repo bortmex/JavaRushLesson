@@ -39,9 +39,9 @@ number, кроме самого старшего равного единице, 
 
 
 Требования:
-1.	В классе Solution должен присутствовать публичный метод int resetLowerBits(int).
+1.	В классе ntrlab.Solution должен присутствовать публичный метод int resetLowerBits(int).
 2.	Параметр метода resetLowerBits(int) должен называться number.
-3.	В классе Solution в методе resetLowerBits(int) используй только разрешенные операции.
+3.	В классе ntrlab.Solution в методе resetLowerBits(int) используй только разрешенные операции.
 4.	Метод resetLowerBits должен работать согласно условию задачи.
 
 

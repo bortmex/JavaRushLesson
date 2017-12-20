@@ -10,9 +10,9 @@ taskKey="com.javarush.task.task17.task1715"
 
 
 Требования:
-1.	Класс Solution должен содержать public static поле drugsController типа DrugsController.
-2.	Класс Solution должен содержать public static поле isStopped типа boolean.
-3.	Класс Solution должен содержать private static void метод waitAMoment(), который должен ждать 100 мс.
+1.	Класс ntrlab.Solution должен содержать public static поле drugsController типа DrugsController.
+2.	Класс ntrlab.Solution должен содержать public static поле isStopped типа boolean.
+3.	Класс ntrlab.Solution должен содержать private static void метод waitAMoment(), который должен ждать 100 мс.
 4.	Класс Apteka должен реализовывать интерфейс Runnable.
 5.	Нить Apteka должна работать пока isStopped = false.
 6.	Нить Apteka должна использовать drugsController для закупки случайного лекарства (getRandomDrug) в количестве (getRandomCount).

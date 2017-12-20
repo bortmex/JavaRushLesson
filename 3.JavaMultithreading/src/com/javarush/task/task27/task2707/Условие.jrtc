@@ -13,6 +13,6 @@ taskKey="com.javarush.task.task27.task2707"
 1.	Метод isNormalLockOrder должен возвращать true в случае, если синхронизация в методе someMethodWithSynchronizedBlocks происходит сначала по объекту o1, а потом по o2.
 2.	Метод isNormalLockOrder должен возвращать false в случае, если синхронизация в методе someMethodWithSynchronizedBlocks происходит сначала по объекту o2, а потом по o1.
 3.	Метод isNormalLockOrder НЕ должен быть приватным.
-4.	Класс Solution НЕ должен быть объявлен с модификатором final.
+4.	Класс ntrlab.Solution НЕ должен быть объявлен с модификатором final.
 
 

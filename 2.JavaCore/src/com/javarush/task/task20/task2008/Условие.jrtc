@@ -8,8 +8,8 @@ taskKey="com.javarush.task.task20.task2008"
 
 
 Требования:
-1.	Класс Solution.Singleton должен поддерживать интерфейс Serializable.
-2.	В классе Solution.Singleton должен быть реализован метод readResolve без параметров.
+1.	Класс ntrlab.Solution.Singleton должен поддерживать интерфейс Serializable.
+2.	В классе ntrlab.Solution.Singleton должен быть реализован метод readResolve без параметров.
 3.	Метод readResolve должен возвращать синглтон (ourInstance).
 4.	Метод readResolve должен быть приватным.
 

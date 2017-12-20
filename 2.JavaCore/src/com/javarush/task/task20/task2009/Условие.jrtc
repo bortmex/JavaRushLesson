@@ -6,7 +6,7 @@ taskKey="com.javarush.task.task20.task2009"
 
 
 Требования:
-1.	Класс ClassWithStatic должен существовать внутри класса Solution.
+1.	Класс ClassWithStatic должен существовать внутри класса ntrlab.Solution.
 2.	Класс ClassWithStatic должен быть статическим.
 3.	Класс ClassWithStatic должен быть публичным.
 4.	Класс ClassWithStatic должен поддерживать интерфейс Serializable.

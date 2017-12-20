@@ -11,7 +11,7 @@ taskKey="com.javarush.task.task36.task3609"
 1.	Вывод программы должен остаться без изменений.
 2.	Необходимо переместить метод void speedUp(int) из класса CarModel в класс CarController.
 3.	Необходимо переместить метод void speedDown(int) из класса CarModel в класс CarController.
-4.	В методе main класса Solution метод speedUp необходимо вызывать у контроллера, а не у модели.
-5.	В методе main класса Solution метод speedDown необходимо вызывать у контроллера, а не у модели.
+4.	В методе main класса ntrlab.Solution метод speedUp необходимо вызывать у контроллера, а не у модели.
+5.	В методе main класса ntrlab.Solution метод speedDown необходимо вызывать у контроллера, а не у модели.
 
 

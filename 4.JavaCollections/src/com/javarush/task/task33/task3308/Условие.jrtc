@@ -17,6 +17,6 @@ taskKey="com.javarush.task.task33.task3308"
 6.	В классе Shop должен содержаться вложенный статический класс Goods.
 7.	В классе Shop.Goods должен быть создан список строк names.
 8.	Все поля класса Shop должны быть публичными.
-9.	Метод getClassName класса Solution должен возвращать класс Shop.
+9.	Метод getClassName класса ntrlab.Solution должен возвращать класс Shop.
 
 

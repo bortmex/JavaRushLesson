@@ -18,8 +18,8 @@ java.util.concurrent.FutureTask@6576fe71 was not completed
 
 
 Требования:
-1.	В методе main класса Solution должен быть вызван метод shutdownNow на объекте executor.
-2.	В методе main класса Solution на экран должны быть выведены все задачи которые не успел выполнить executor.
+1.	В методе main класса ntrlab.Solution должен быть вызван метод shutdownNow на объекте executor.
+2.	В методе main класса ntrlab.Solution на экран должны быть выведены все задачи которые не успел выполнить executor.
 3.	Метод main должен быть публичным.
 4.	Метод main должен быть статическим.
 

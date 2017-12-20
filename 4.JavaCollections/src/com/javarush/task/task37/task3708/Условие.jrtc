@@ -10,7 +10,7 @@ taskKey="com.javarush.task.task37.task3708"
 storage. После получения необходимого объекта из хранилища storage, его необходимо кешировать
 с помощью объекта типа LRUCache.
 
-Для клиента (в данном случае класс Solution) использование CachingProxyRetriever ничем не должно отличаться
+Для клиента (в данном случае класс ntrlab.Solution) использование CachingProxyRetriever ничем не должно отличаться
 от использования класса OriginalRetriever.
 
 P.S. Тебе понадобятся поля типов LRUCache и OriginalRetriever в классе CachingProxyRetriever.

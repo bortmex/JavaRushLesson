@@ -5,7 +5,7 @@ Security Proxy
 Необходимо создать класс SecurityProxyConnector в пакете connectors, который будет производить проверку
 безопасности перед подключением. В случае, если проверка не пройдена, соединение не должно быть установлено.
 
-Для клиента (в данном случае класс Solution) использование SecurityProxyConnector ничем не должно отличаться
+Для клиента (в данном случае класс ntrlab.Solution) использование SecurityProxyConnector ничем не должно отличаться
 от использования класса SimpleConnector.
 
 P.S. Тебе понадобятся поля типов SecurityChecker и SimpleConnector в классе SecurityProxyConnector.

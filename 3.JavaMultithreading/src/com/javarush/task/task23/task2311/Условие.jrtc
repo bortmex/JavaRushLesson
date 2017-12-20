@@ -2,7 +2,7 @@ taskKey="com.javarush.task.task23.task2311"
 
 Повторяем threads
 
-Сделать так, чтобы в методе someActions вызывались только методы класса Solution.
+Сделать так, чтобы в методе someActions вызывались только методы класса ntrlab.Solution.
 Ожидаемый вывод в методе main:
 Amigo: Mmmmm, beef
 Amigo: knock knock
@@ -11,9 +11,9 @@ Amigo: Zzzzzzz...1 sec
 
 Требования:
 1.	Вывод на экран должен соответствовать условию задачи.
-2.	В методе someActions должен быть вызван метод sleep класса Solution.
-3.	В классе Solution должно присутствовать поле name.
-4.	В классе Solution должно присутствовать поле food.
-5.	В классе Solution должно присутствовать поле sound.
+2.	В методе someActions должен быть вызван метод sleep класса ntrlab.Solution.
+3.	В классе ntrlab.Solution должно присутствовать поле name.
+4.	В классе ntrlab.Solution должно присутствовать поле food.
+5.	В классе ntrlab.Solution должно присутствовать поле sound.
 
 

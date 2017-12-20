@@ -13,7 +13,7 @@ taskKey="com.javarush.task.task17.task1701"
 
 
 Требования:
-1.	Класс Solution должен содержать public static класс NoteThread.
+1.	Класс ntrlab.Solution должен содержать public static класс NoteThread.
 2.	Класс NoteThread должен быть нитью.
 3.	В методе run класса NoteThread должен быть цикл.
 4.	Метод run класса NoteThread должен 1000 раз вызывать метод addNote c параметром (getName() + "-Note" + index).

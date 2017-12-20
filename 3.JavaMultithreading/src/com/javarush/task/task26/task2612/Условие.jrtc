@@ -12,9 +12,9 @@ taskKey="com.javarush.task.task26.task2612"
 
 
 Требования:
-1.	Класс Solution содержать приватное поле Lock lock.
-2.	Класс Solution содержать публичный метод ifLockIsFree.
-3.	Класс Solution содержать публичный метод ifLockIsBusy.
+1.	Класс ntrlab.Solution содержать приватное поле Lock lock.
+2.	Класс ntrlab.Solution содержать публичный метод ifLockIsFree.
+3.	Класс ntrlab.Solution содержать публичный метод ifLockIsBusy.
 4.	Метод someMethod должен пытаться захватить лок.
 5.	Метод someMethod должен вызвать метод ifLockIsBusy если лок занят.
 6.	Метод someMethod должен вызвать метод ifLockIsFree если лок свободен.

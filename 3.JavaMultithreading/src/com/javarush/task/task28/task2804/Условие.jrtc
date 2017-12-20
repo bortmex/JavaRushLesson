@@ -11,7 +11,7 @@ Magic class
 
 
 Требования:
-1.	Класс Solution изменять нельзя.
+1.	Класс ntrlab.Solution изменять нельзя.
 2.	Реализацию методов startUpdatingThread и stopUpdatingThread менять нельзя.
 3.	Реализацию метода copyOnWriteSolution менять нельзя.
 4.	Добавь в main создание нужного экземпляра List согласно заданию.

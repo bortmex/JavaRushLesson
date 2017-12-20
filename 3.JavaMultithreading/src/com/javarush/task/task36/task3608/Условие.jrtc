@@ -126,7 +126,7 @@ List<User> users = userService.getAllDeletedUsers();
 Не забудь, что данные, полученные с сервера, необходимо положить в ModelData. А потом обновить view.
 Добавь это самостоятельно в нужные методы.
 
-2. Добавь в Solution.main вызов нового метода, который ты поместил в view.
+2. Добавь в ntrlab.Solution.main вызов нового метода, который ты поместил в view.
 
 3. Добавь в интерфейс Model метод, который ты поместил в Модель, реализуй его в FakeModel: выброси UnsupportedOperationException.
 
@@ -146,7 +146,7 @@ MVC (4)
 3.1. Достань всех пользователей между 1 и 100 уровнями. (Метод getUsersBetweenLevels(1, 100)).
 3.2. Положи всех пользователей в modelData.
 
-4. Обнови Solution.main: замени FakeModel на MainModel.
+4. Обнови ntrlab.Solution.main: замени FakeModel на MainModel.
 Преимущества MVC в том, что в любой момент времени легко можно заменить любую часть паттерна.
 
 

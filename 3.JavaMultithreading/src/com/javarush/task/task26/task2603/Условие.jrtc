@@ -12,7 +12,7 @@ taskKey="com.javarush.task.task26.task2603"
 
 
 Требования:
-1.	Класс Solution должен содержать public static компаратор CustomizedComparator.
+1.	Класс ntrlab.Solution должен содержать public static компаратор CustomizedComparator.
 2.	Класс CustomizedComparator должен содержать приватное поле comparators типа Comparator<T>[].
 3.	Класс CustomizedComparator должен содержать конструктор с параметром vararg компараторов.
 4.	Метод compare() класса CustomizedComparator должен сравнивать объекты в порядке, соответствующем последовательности компараторов comparators.

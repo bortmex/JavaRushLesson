@@ -14,7 +14,7 @@ taskKey="com.javarush.task.task38.task3804"
 подчеркивания замените на пробелы. Сообщение должно быть в нижнем регистре за исключением первого символа.
 Например, сообщение для ExceptionApplicationMessage.SOCKET_IS_CLOSED - "Socket is closed".
 
-Верните класс созданной фабрики в методе Solution.getFactoryClass.
+Верните класс созданной фабрики в методе ntrlab.Solution.getFactoryClass.
 
 Энумы не меняй.
 

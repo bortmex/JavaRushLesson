@@ -13,7 +13,7 @@ taskKey="com.javarush.task.task31.task3103"
 
 
 Требования:
-1.	Импорты в классе Solution менять нельзя.
+1.	Импорты в классе ntrlab.Solution менять нельзя.
 2.	Метод readBytes должен возвращать все байты файла fileName.
 3.	Метод readLines должен возвращать все строки файла fileName с кодировкой по умолчанию.
 4.	Метод writeBytes должен записывать массив bytes в файл fileName.

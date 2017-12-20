@@ -4,7 +4,7 @@ taskKey="com.javarush.task.task33.task3312"
 
 Сделай так, чтобы при сериализации объекта типа Zoo, каждому элементу списка animals был добавлен тип
 (dog для класса Dog, cat для класса Cat).
-Для проверки можешь использовать метод main класса Solution.
+Для проверки можешь использовать метод main класса ntrlab.Solution.
 
 Было:
 {"animals":[{"name":"doggy","barkVolume":0.0},{"name":"catty","lives":0}]}

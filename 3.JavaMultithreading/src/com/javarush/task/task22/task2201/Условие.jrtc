@@ -15,9 +15,9 @@ a) 1# : TooShortStringFirstThreadException : java.lang.StringIndexOutOfBoundsExc
 
 Требования:
 1.	Метод getPartOfString должен возвращать подстроку между первой и последней табуляцией строки string переданной ему в качестве первого параметра.
-2.	В случае некорректных данных метод getPartOfString должен бросить исключение TooShortStringFirstThreadException, если имя трэда(threadName) Solution.FIRST_THREAD_NAME.
-3.	В случае некорректных данных метод getPartOfString должен бросить исключение TooShortStringSecondThreadException, если имя трэда(threadName) Solution.SECOND_THREAD_NAME.
-4.	В случае некорректных данных метод getPartOfString должен бросить исключение RuntimeException, если имя трэда(threadName) не Solution.FIRST_THREAD_NAME или Solution.SECOND_THREAD_NAME.
+2.	В случае некорректных данных метод getPartOfString должен бросить исключение TooShortStringFirstThreadException, если имя трэда(threadName) ntrlab.Solution.FIRST_THREAD_NAME.
+3.	В случае некорректных данных метод getPartOfString должен бросить исключение TooShortStringSecondThreadException, если имя трэда(threadName) ntrlab.Solution.SECOND_THREAD_NAME.
+4.	В случае некорректных данных метод getPartOfString должен бросить исключение RuntimeException, если имя трэда(threadName) не ntrlab.Solution.FIRST_THREAD_NAME или ntrlab.Solution.SECOND_THREAD_NAME.
 5.	Метод getFormattedStringForFirstThread должен возвращать строку сформированную из переданных параметров по шаблону указанному в задании.
 6.	Метод getFormattedStringForSecondThread должен возвращать строку сформированную из переданных параметров по шаблону указанному в задании.
 7.	Метод getFormattedStringForOtherThread должен возвращать строку сформированную из переданных параметров по шаблону указанному в задании.

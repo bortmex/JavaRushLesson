@@ -11,10 +11,10 @@ taskKey="com.javarush.task.task31.task3106"
 
 Пример входных данных. Внутри архива находится один файл с именем abc.mp3:
 C:/result.mp3
-C:/pathToTest/test.zip.003
-C:/pathToTest/test.zip.001
-C:/pathToTest/test.zip.004
-C:/pathToTest/test.zip.002
+C:/pathToTest/amyTask.tast0001.test.zip.003
+C:/pathToTest/amyTask.tast0001.test.zip.001
+C:/pathToTest/amyTask.tast0001.test.zip.004
+C:/pathToTest/amyTask.tast0001.test.zip.002
 
 
 Требования:

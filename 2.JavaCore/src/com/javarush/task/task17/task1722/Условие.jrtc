@@ -7,11 +7,11 @@ taskKey="com.javarush.task.task17.task1722"
 
 
 Требования:
-1.	Класс Solution должен содержать класс Counter.
+1.	Класс ntrlab.Solution должен содержать класс Counter.
 2.	Класс Counter должен быть нитью.
 3.	Метод run() класса Counter должен содержать synchronized блок.
 4.	Synchronized блок метода run() не должен блокировать мьютекс this.
-5.	Метод main(String[] args) класса Solution не должен использовать Thread.sleep().
-6.	Для каждой нити, в методе main(String[] args) класса Solution используй метод, который ожидает завершение нити.
+5.	Метод main(String[] args) класса ntrlab.Solution не должен использовать Thread.sleep().
+6.	Для каждой нити, в методе main(String[] args) класса ntrlab.Solution используй метод, который ожидает завершение нити.
 
 

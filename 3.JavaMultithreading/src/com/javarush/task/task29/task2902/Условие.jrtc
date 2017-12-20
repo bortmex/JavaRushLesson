@@ -6,7 +6,7 @@ taskKey="com.javarush.task.task29.task2902"
 
 
 Требования:
-1.	Переименуй переменную Solution типа Solution в соответствии с Naming and Code Convention.
+1.	Переименуй переменную ntrlab.Solution типа ntrlab.Solution в соответствии с Naming and Code Convention.
 2.	Переименуй переменную file_name_to_be_opened_by_notepad типа String в соответствии с Naming and Code Convention.
 3.	Переименуй переменную NOTEPAD типа Process в соответствии с Naming and Code Convention.
 4.	Переименуй метод getprocessstartnotepad в соответствии с Naming and Code Convention.

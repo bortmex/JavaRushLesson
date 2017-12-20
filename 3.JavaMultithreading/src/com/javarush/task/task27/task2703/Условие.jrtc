@@ -7,8 +7,8 @@ taskKey="com.javarush.task.task27.task2703"
 
 
 Требования:
-1.	Класс Solution.Friend НЕ должен быть приватным.
-2.	Класс Solution.Friend должен быть статическим.
+1.	Класс ntrlab.Solution.Friend НЕ должен быть приватным.
+2.	Класс ntrlab.Solution.Friend должен быть статическим.
 3.	Метод bow должен быть объявлен с модификатором synchronized.
 4.	Метод bowBack должен быть объявлен с модификатором synchronized.
 

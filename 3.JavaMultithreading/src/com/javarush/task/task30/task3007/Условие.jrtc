@@ -17,9 +17,9 @@ taskKey="com.javarush.task.task30.task3007"
 
 
 Требования:
-1.	В классе Solution должен присутствовать метод maxPowerOf2(int).
-2.	В классе Solution в методе maxPowerOf2(int) используй только разрешенные операции.
-3.	В классе Solution в методе maxPowerOf2(int) используй только разрешенные операции.
+1.	В классе ntrlab.Solution должен присутствовать метод maxPowerOf2(int).
+2.	В классе ntrlab.Solution в методе maxPowerOf2(int) используй только разрешенные операции.
+3.	В классе ntrlab.Solution в методе maxPowerOf2(int) используй только разрешенные операции.
 4.	Метод maxPowerOf2(int) должен возвращать число 2 в максимальной степени, которое получается поместить в переданное число.
 
 

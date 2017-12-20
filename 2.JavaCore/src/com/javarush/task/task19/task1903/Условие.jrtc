@@ -13,8 +13,8 @@ CA Canada
 
 
 Требования:
-1.	Класс Solution должен содержать public static поле countries типа Map<String, String>.
-2.	В статическом блоке класса Solution инициализируй поле countries тестовыми данными согласно заданию.
+1.	Класс ntrlab.Solution должен содержать public static поле countries типа Map<String, String>.
+2.	В статическом блоке класса ntrlab.Solution инициализируй поле countries тестовыми данными согласно заданию.
 3.	Класс IncomeDataAdapter должен реализовывать интерфейсы Customer и Contact.
 4.	Класс IncomeDataAdapter должен содержать приватное поле data типа IncomeData.
 5.	Класс IncomeDataAdapter должен содержать конструктор с параметром IncomeData.

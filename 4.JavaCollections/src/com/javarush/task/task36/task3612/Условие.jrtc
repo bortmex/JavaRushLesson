@@ -11,8 +11,8 @@ false.
 
 
 Требования:
-1.	В классе Solution должно быть объявлено приватное поле Set<Date> dates.
-2.	В классе Solution должно быть объявлено приватное поле Date lastDate.
+1.	В классе ntrlab.Solution должно быть объявлено приватное поле Set<Date> dates.
+2.	В классе ntrlab.Solution должно быть объявлено приватное поле Date lastDate.
 3.	Метод isLastDateContainsInDates должен правильно возвращать содержит ли dates дату lastDate.
 4.	Количество элементов в множестве dates не должно измениться после вызова метода updateLastDate.
 5.	В методе updateLastDate необходимо удалить из множества dates старую дату lastDate.

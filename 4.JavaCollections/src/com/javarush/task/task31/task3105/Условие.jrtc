@@ -10,13 +10,13 @@ taskKey="com.javarush.task.task31.task3105"
 
 Пример входных данных:
 C:/result.mp3
-C:/pathToTest/test.zip
+C:/pathToTest/amyTask.tast0001.test.zip
 
-Файлы внутри test.zip:
+Файлы внутри amyTask.tast0001.test.zip:
 a.txt
 b.txt
 
-После запуска Solution.main архив test.zip должен иметь такое содержимое:
+После запуска ntrlab.Solution.main архив amyTask.tast0001.test.zip должен иметь такое содержимое:
 new/result.mp3
 a.txt
 b.txt

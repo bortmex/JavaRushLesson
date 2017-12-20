@@ -9,7 +9,7 @@ taskKey="com.javarush.task.task38.task3808"
 
 Требования:
 1.	Аннотация @Main должна использоваться только для аннотирования методов.
-2.	Метод main класса Solution должен быть отмечен только аннотацией @Main.
+2.	Метод main класса ntrlab.Solution должен быть отмечен только аннотацией @Main.
 3.	Метод overriddenMethod класса SubSolution должен быть отмечен только аннотацией @Override.
 4.	В методе uncheckedCall должны быть подавлены unchecked warnings с помощью аннотации.
 

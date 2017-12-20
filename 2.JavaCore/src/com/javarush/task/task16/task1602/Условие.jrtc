@@ -8,7 +8,7 @@ My second thread
 
 
 Требования:
-1.	Добавь в класс Solution публичный статический класс TestThread.
+1.	Добавь в класс ntrlab.Solution публичный статический класс TestThread.
 2.	Класс TestThread должен быть унаследован от класса Thread.
 3.	Класс TestThread не должен реализовывать какие-либо дополнительные интерфейсов.
 4.	Создать статик блок внутри TestThread, который выводит в консоль "it's a static block inside TestThread".

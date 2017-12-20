@@ -2,7 +2,7 @@ taskKey="com.javarush.task.task28.task2802"
 
 Пишем свою ThreadFactory
 
-В классе Solution создай публичный статический класс AmigoThreadFactory, реализующий интерфейс ThreadFactory.
+В классе ntrlab.Solution создай публичный статический класс AmigoThreadFactory, реализующий интерфейс ThreadFactory.
 1. Реализация интерфейсного метода - создайте и верните трэд, который должен:
 1.1. не быть демоном,
 1.2. иметь нормальный приоритет,
@@ -22,7 +22,7 @@ secondGroup-pool-2-thread-2
 
 
 Требования:
-1.	В классе Solution нужно создать класс public static AmigoThreadFactory, который реализует интерфейс ThreadFactory.
+1.	В классе ntrlab.Solution нужно создать класс public static AmigoThreadFactory, который реализует интерфейс ThreadFactory.
 2.	Фабрика AmigoThreadFactory должна создавать трэды, которые не являются демоном.
 3.	Фабрика AmigoThreadFactory должна создавать трэды, которые имеют нормальный приоритет.
 4.	Фабрика AmigoThreadFactory должна создавать имена для трэдов по шаблону "GN-pool-A-thread-B".

@@ -14,13 +14,13 @@ StringVar типа String
 
 
 Требования:
-1.	В классе Solution должно быть объявлено поле intVar типа int.
-2.	В классе Solution должно быть объявлено поле doubleVar типа double.
-3.	В классе Solution должно быть объявлено поле DoubleVar типа Double.
-4.	В классе Solution должно быть объявлено поле booleanVar типа boolean.
-5.	В классе Solution должно быть объявлено поле ObjectVar типа Object.
-6.	В классе Solution должно быть объявлено поле ExceptionVar типа Exception.
-7.	В классе Solution должно быть объявлено поле StringVar типа String.
+1.	В классе ntrlab.Solution должно быть объявлено поле intVar типа int.
+2.	В классе ntrlab.Solution должно быть объявлено поле doubleVar типа double.
+3.	В классе ntrlab.Solution должно быть объявлено поле DoubleVar типа Double.
+4.	В классе ntrlab.Solution должно быть объявлено поле booleanVar типа boolean.
+5.	В классе ntrlab.Solution должно быть объявлено поле ObjectVar типа Object.
+6.	В классе ntrlab.Solution должно быть объявлено поле ExceptionVar типа Exception.
+7.	В классе ntrlab.Solution должно быть объявлено поле StringVar типа String.
 8.	Метод main должен выводить значения полей на экран(каждое с новой строки или через пробел) в заданном порядке. Инициализировать переменные не нужно.
 
 

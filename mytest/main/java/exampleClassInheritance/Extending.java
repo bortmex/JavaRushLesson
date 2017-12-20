@@ -1,3 +1,5 @@
+package exampleClassInheritance;
+
 public class Extending extends Extending1 {
     int a = 20;
     int c = 20;

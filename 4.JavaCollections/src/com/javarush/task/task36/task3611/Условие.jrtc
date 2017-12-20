@@ -24,8 +24,8 @@ int deep - глубина поиска друзей. Если Маша в дру
 
 
 Требования:
-1.	В классе Solution должен существовать публичный метод Set<Integer> getAllFriendsAndPotentialFriends(int index, int deep).
-2.	В классе Solution должно быть объявлено приватное поле boolean[][] humansRelationships.
+1.	В классе ntrlab.Solution должен существовать публичный метод Set<Integer> getAllFriendsAndPotentialFriends(int index, int deep).
+2.	В классе ntrlab.Solution должно быть объявлено приватное поле boolean[][] humansRelationships.
 3.	В множестве, которое возвращает метод getAllFriendsAndPotentialFriends не должно быть индекса index.
 4.	Метод getAllFriendsAndPotentialFriends должен быть реализован согласно условию.
 

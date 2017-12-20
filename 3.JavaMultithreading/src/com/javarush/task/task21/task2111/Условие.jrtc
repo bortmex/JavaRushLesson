@@ -7,9 +7,9 @@ taskKey="com.javarush.task.task21.task2111"
 
 
 Требования:
-1.	Метод finalize в классе Solution должен содержать вызов super.finalize().
-2.	Метод finalize в классе Solution должен корректно завершаться в случае, если значение поля connection равно null.
-3.	Метод finalize в классе Solution должен закрывать текущее соединение, если значение поля connection не равно null.
+1.	Метод finalize в классе ntrlab.Solution должен содержать вызов super.finalize().
+2.	Метод finalize в классе ntrlab.Solution должен корректно завершаться в случае, если значение поля connection равно null.
+3.	Метод finalize в классе ntrlab.Solution должен закрывать текущее соединение, если значение поля connection не равно null.
 4.	Метод getUsers должен корректно использовать try-with-resources.
 
 

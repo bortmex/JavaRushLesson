@@ -8,7 +8,7 @@ CountDownLatch
 
 
 Требования:
-1.	Из класса Solution должно быть удалено поле lock.
+1.	Из класса ntrlab.Solution должно быть удалено поле lock.
 2.	Из метода someMethod должен быть удален synchronized блок.
 3.	В методе someMethod должен быть вызван метод await без параметров у объекта сохраненного в поле latch.
 4.	В методе someMethod должен быть вызван метод retrieveValue.

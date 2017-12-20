@@ -1,3 +1,5 @@
+package ntrlab;
+
 public class Solution {
     //test cubePlusOne
     public static void main(String[] args) {

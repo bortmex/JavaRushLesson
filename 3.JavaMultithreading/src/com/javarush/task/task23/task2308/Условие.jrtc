@@ -2,12 +2,12 @@ taskKey="com.javarush.task.task23.task2308"
 
 Рефакторинг, вложенные классы
 
-Отрефакторите класс Solution: вынесите все константы в public вложенный(nested) класс Constants.
+Отрефакторите класс ntrlab.Solution: вынесите все константы в public вложенный(nested) класс Constants.
 Запретите наследоваться от Constants.
 
 
 Требования:
-1.	В классе Solution должен быть создан класс Constants содержащий строковые константы.
+1.	В классе ntrlab.Solution должен быть создан класс Constants содержащий строковые константы.
 2.	Класс Constants должен быть публичным.
 3.	Класс Constants должен быть объявлен с модификатором, запрещающим наследование от этого класса.
 4.	В классе Constants должна существовать константа SERVER_IS_NOT_ACCESSIBLE_FOR_NOW со значением "Server is not accessible for now.".
